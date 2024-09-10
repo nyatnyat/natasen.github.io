@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Order</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+        .center {
+            text-align: center;
+        }
+        .right {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <td colspan="4" class="center"><img src="logo-resto.jpeg" alt="Restaurant Logo"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Nama Pelayan: Jonathan J.T Pasaribu</td>
+            <td colspan="2">Tanggal Pemesanan: <input type="date"></td>
+        </tr>
+        <tr>
+            <td colspan="2">Nama Pemesan: Abdullah Azam</td>
+            <td colspan="2">Alamat Pemesan: Jl. Merdeka No. 15, Kota Balikpapan</td>
+        </tr>
+        <tr>
+            <th>Nama Menu</th>
+            <th>Jumlah</th>
+            <th>Harga Satuan</th>
+            <th>Total Harga</th>
+        </tr>
+        <tr>
+            <td><img src="nasi-goreng.jpeg" alt="Nasi Goreng Spesial"> Nasi Goreng Spesial</td>
+            <td>1 Porsi</td>
+            <td>Rp 25,000</td>
+            <td>Rp 25,000</td>
+        </tr>
+        <tr>
+            <td><img src="es-teh-manis.jpeg" alt="Es Teh Manis">Es Teh Manis </td>
+            <td>1 Gelas</td>
+            <td>Rp 5,000</td>
+            <td>Rp 5,000</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="right">Total Pesanan</td>
+            <td>Rp 30,000</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="right">Pajak</td>
+            <td>Rp 2,000</td>
+        </tr>
+        <tr>
+            <td colspan="3" class="right">Total Tagihan</td>
+            <td>Rp 32,000</td>
+        </tr>
+        <tr>
+            <td colspan="4">
+                Metode Pembayaran:
+                <input type="checkbox" id="bank_bca">
+                <label for="bank_bca">Bank BCA</label>
+                <input type="checkbox" id="bank_bri">
+                <label for="bank_bri">Bank BRI</label>
+                <input type="checkbox" id="ovo">
+                <label for="ovo">OVO</label>
+                <input type="checkbox" id="gopay">
+                <label for="gopay">GoPay</label>
+            </td>
+        </tr>
+        <tr>
+            <td colspan="4" class="center">
+                Nama: Jonathan J.T Pasaribu<br>
+                NIM: 1915016116<br>
+                Praktikum Web: <a href="https://classroom.google.com/u/0/c/NzEwMjM1NDMwMjIz/a/NzExMzA4NTEwMzc2/details">Posttest 1</a>
+            
+            </td>
+        </tr>
+    </table>
+</body>
+</html>
